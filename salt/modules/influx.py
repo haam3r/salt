@@ -27,7 +27,7 @@ version 0.9+)
     would override ``user`` and ``password`` while still using the defaults for
     ``host`` and ``port``.
 '''
-from __future__ import absolute_import
+from __future__ import absolute_import, unicode_literals
 
 try:
     import influxdb
